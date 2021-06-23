@@ -1,0 +1,69 @@
+{% macro check_sensor(sensor) -%}
+    {% if sensor['low'] and sensor['high'] %}
+        {% if sensor['data'] == -1000.0 %}
+            nodata
+        {% elif sensor['data'] < sensor['low'] %}
+            good
+        {% elif sensor['data'] > sensor['high'] %}
+            ugly
+        {% else %}
+            bad
+        {% endif %}
+    {% endif %}
+{%- endmacro %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Sensor Viewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	
+    {{ moment.include_jquery() }}
+    {{ moment.include_moment() }}
+
+</head>
+<body>
+    <div class="box">
+	     Updated: {{ moment().format('MMM Do YYYY, h:mm:ss a') }}
+        <div class="site">
+            <h1> Site 1 </h1>
+                {% for sensor in site1_sensors %}
+                <div class="box">
+
+                    <span class="sensor {{check_sensor(sensor)}}"> 
+                        {{ sensor['type'] }}: {{ sensor['str_data'] }}</span>
+
+                </div>
+                {% endfor %}
+            </div>
+        <div class="site">
+            <h1> Site 2 </h1>
+                {% for sensor in site2_sensors %}
+                <div class="box">
+
+                    <span class="sensor {{check_sensor(sensor)}}"> 
+                        {{ sensor['type'] }}: {{ sensor['str_data'] }}</span>
+
+                </div>
+                {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        var refresh_time = {{ refresh }} * 1000;
+
+        function page_reload() {
+            location.reload();
+        }
+
+        setTimeout(page_reload, refresh_time);
+    </script>
+
+</body>
+
+</html>
+

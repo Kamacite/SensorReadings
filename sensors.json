@@ -1,0 +1,48 @@
+{
+    "site1_sensors": [
+        {
+            "name": "Rack 3 Front",
+            "type": "Temperature",
+            "low": 75.0,
+            "high": 80.0,
+            "url": "https://ip_address/xmlQuery.priv?QUERY=%3Cvariable-query%3E%3Cresult-filter%20incguid=%22yes%22%3E%3Cincmeta%20slotid=%22nbLabel%22/%3E%3Cincmeta%20slotid=%22nbEncID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbPortID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbEnum%22/%3E%3Cincmeta%20slotid=%22nbErrorStatus%22/%3E%3Cincmeta%20slotid=%22nbSensorIsUnplugged%22/%3E%3Cincmeta%20slotid=%22nbSensorPlugged%22/%3E%3Cincmeta%20slotid=%22nbSwitchValSet%22/%3E%3Cincmeta%20slotid=%22nbButtonValSet%22/%3E%3Cincmeta%20slotid=%22nbHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbMaxHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbSensorMonitored%22/%3E%3Cincmeta%20slotid=%22nbUnitsID%22/%3E%3Cincmeta%20slotid=%22nbPrintPattern%22/%3E%3Cincmeta%20slotid=%22nbIcon%22/%3E%3Cincmeta%20slotid=%22nbPromptOnValSet%22/%3E%3C/result-filter%3E%3Cid-query%20varid=%22nbAlinkEnc_0_93_TEMP%22/%3E%3C/variable-query%3E"
+        },
+        {
+            "name": "Rack 3 Front",
+            "type": "Humidity",
+			"low": 55.0,
+			"high": 60.0,
+            "url": "https://ip_address/xmlQuery.priv?QUERY=%3Cvariable-query%3E%3Cresult-filter%20incguid=%22yes%22%3E%3Cincmeta%20slotid=%22nbLabel%22/%3E%3Cincmeta%20slotid=%22nbEncID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbPortID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbEnum%22/%3E%3Cincmeta%20slotid=%22nbErrorStatus%22/%3E%3Cincmeta%20slotid=%22nbSensorIsUnplugged%22/%3E%3Cincmeta%20slotid=%22nbSensorPlugged%22/%3E%3Cincmeta%20slotid=%22nbSwitchValSet%22/%3E%3Cincmeta%20slotid=%22nbButtonValSet%22/%3E%3Cincmeta%20slotid=%22nbHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbMaxHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbSensorMonitored%22/%3E%3Cincmeta%20slotid=%22nbUnitsID%22/%3E%3Cincmeta%20slotid=%22nbPrintPattern%22/%3E%3Cincmeta%20slotid=%22nbIcon%22/%3E%3Cincmeta%20slotid=%22nbPromptOnValSet%22/%3E%3C/result-filter%3E%3Cid-query%20varid=%22nbAlinkEnc_0_94_HUMI%22/%3E%3C/variable-query%3E"
+        },
+        {
+            "name":"Rack 3 Front",
+            "type": "Dew Point",
+			"low": 53.0,
+			"high": 56.0,
+            "url": "https://ip_address/xmlQuery.priv?QUERY=%3Cvariable-query%3E%3Cresult-filter%20incguid=%22yes%22%3E%3Cincmeta%20slotid=%22nbLabel%22/%3E%3Cincmeta%20slotid=%22nbEncID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbPortID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbEnum%22/%3E%3Cincmeta%20slotid=%22nbErrorStatus%22/%3E%3Cincmeta%20slotid=%22nbSensorIsUnplugged%22/%3E%3Cincmeta%20slotid=%22nbSensorPlugged%22/%3E%3Cincmeta%20slotid=%22nbSwitchValSet%22/%3E%3Cincmeta%20slotid=%22nbButtonValSet%22/%3E%3Cincmeta%20slotid=%22nbHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbMaxHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbSensorMonitored%22/%3E%3Cincmeta%20slotid=%22nbUnitsID%22/%3E%3Cincmeta%20slotid=%22nbPrintPattern%22/%3E%3Cincmeta%20slotid=%22nbIcon%22/%3E%3Cincmeta%20slotid=%22nbPromptOnValSet%22/%3E%3C/result-filter%3E%3Cid-query%20varid=%22nbAlinkEnc_0_96_DWPT%22/%3E%3C/variable-query%3E"
+        }
+    ],
+    "site2_sensors": [
+        {
+            "name": "Rack",
+            "type": "Temperature",
+            "low": 75.0,
+            "high": 80.0,
+            "url": "https://ip_address/xmlQuery.priv?QUERY=%3Cvariable-query%3E%3Cresult-filter%20incguid=%22yes%22%3E%3Cincmeta%20slotid=%22nbLabel%22/%3E%3Cincmeta%20slotid=%22nbEncID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbPortID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbEnum%22/%3E%3Cincmeta%20slotid=%22nbErrorStatus%22/%3E%3Cincmeta%20slotid=%22nbSensorIsUnplugged%22/%3E%3Cincmeta%20slotid=%22nbSensorPlugged%22/%3E%3Cincmeta%20slotid=%22nbSwitchValSet%22/%3E%3Cincmeta%20slotid=%22nbButtonValSet%22/%3E%3Cincmeta%20slotid=%22nbHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbMaxHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbSensorMonitored%22/%3E%3Cincmeta%20slotid=%22nbUnitsID%22/%3E%3Cincmeta%20slotid=%22nbPrintPattern%22/%3E%3Cincmeta%20slotid=%22nbIcon%22/%3E%3Cincmeta%20slotid=%22nbPromptOnValSet%22/%3E%3C/result-filter%3E%3Cid-query%20varid=%22nbAlinkEnc_0_93_TEMP%22/%3E%3C/variable-query%3E"
+        },
+        {
+            "name": "Rack",
+            "type": "Humidity",
+			"low": 55.0,
+			"high": 60.0,
+            "url": "https://ip_address/xmlQuery.priv?QUERY=%3Cvariable-query%3E%3Cresult-filter%20incguid=%22yes%22%3E%3Cincmeta%20slotid=%22nbLabel%22/%3E%3Cincmeta%20slotid=%22nbEncID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbPortID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbEnum%22/%3E%3Cincmeta%20slotid=%22nbErrorStatus%22/%3E%3Cincmeta%20slotid=%22nbSensorIsUnplugged%22/%3E%3Cincmeta%20slotid=%22nbSensorPlugged%22/%3E%3Cincmeta%20slotid=%22nbSwitchValSet%22/%3E%3Cincmeta%20slotid=%22nbButtonValSet%22/%3E%3Cincmeta%20slotid=%22nbHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbMaxHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbSensorMonitored%22/%3E%3Cincmeta%20slotid=%22nbUnitsID%22/%3E%3Cincmeta%20slotid=%22nbPrintPattern%22/%3E%3Cincmeta%20slotid=%22nbIcon%22/%3E%3Cincmeta%20slotid=%22nbPromptOnValSet%22/%3E%3C/result-filter%3E%3Cid-query%20varid=%22nbAlinkEnc_0_94_HUMI%22/%3E%3C/variable-query%3E"
+        },
+        {
+            "name": "Rack",
+            "type": "Dew Point",
+			"low": 53.0,
+			"high": 56.0,
+            "url": "https://ip_address/xmlQuery.priv?QUERY=%3Cvariable-query%3E%3Cresult-filter%20incguid=%22yes%22%3E%3Cincmeta%20slotid=%22nbLabel%22/%3E%3Cincmeta%20slotid=%22nbEncID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbPortID%22%20follow-slot=%22yes%22/%3E%3Cincmeta%20slotid=%22nbEnum%22/%3E%3Cincmeta%20slotid=%22nbErrorStatus%22/%3E%3Cincmeta%20slotid=%22nbSensorIsUnplugged%22/%3E%3Cincmeta%20slotid=%22nbSensorPlugged%22/%3E%3Cincmeta%20slotid=%22nbSwitchValSet%22/%3E%3Cincmeta%20slotid=%22nbButtonValSet%22/%3E%3Cincmeta%20slotid=%22nbHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbMaxHistoryTime%22/%3E%3Cincmeta%20slotid=%22nbSensorMonitored%22/%3E%3Cincmeta%20slotid=%22nbUnitsID%22/%3E%3Cincmeta%20slotid=%22nbPrintPattern%22/%3E%3Cincmeta%20slotid=%22nbIcon%22/%3E%3Cincmeta%20slotid=%22nbPromptOnValSet%22/%3E%3C/result-filter%3E%3Cid-query%20varid=%22nbAlinkEnc_0_96_DWPT%22/%3E%3C/variable-query%3E"
+        }
+    ]
+}
